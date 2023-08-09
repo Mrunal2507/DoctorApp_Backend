@@ -1,26 +1,58 @@
-2023-08-08T14:35:03.128+05:30  INFO 20468 --- [restartedMain] com.nv.doctorapp.DoctorsApplication      : Starting DoctorsApplication using Java 17.0.7 with PID 20468 (C:\Users\MSAHEBRA\OneDrive - Capgemini\Desktop\Book My Doctor App\Backend\DoctorsApplication\bin\main started by msahebra in C:\Users\MSAHEBRA\OneDrive - Capgemini\Desktop\Book My Doctor App\Backend\DoctorsApplication)
-2023-08-08T14:35:03.134+05:30  INFO 20468 --- [restartedMain] com.nv.doctorapp.DoctorsApplication      : No active profile set, falling back to 1 default profile: "default"
-2023-08-08T14:35:06.571+05:30  INFO 20468 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-08-08T14:35:06.572+05:30  INFO 20468 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
-2023-08-08T14:35:06.714+05:30  INFO 20468 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-08-08T14:35:07.001+05:30  INFO 20468 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-08-08T14:35:07.155+05:30  INFO 20468 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
-2023-08-08T14:35:07.159+05:30  INFO 20468 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
-2023-08-08T14:35:07.461+05:30  INFO 20468 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-08-08T14:35:07.833+05:30  INFO 20468 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-08-08T14:35:07.840+05:30  WARN 20468 --- [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2023-08-08T14:35:08.450+05:30  INFO 20468 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46dc9523
-2023-08-08T14:35:08.455+05:30  INFO 20468 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-08-08T14:35:09.256+05:30  INFO 20468 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-08-08T14:35:10.730+05:30  INFO 20468 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-08-08T14:35:11.329+05:30  INFO 20468 --- [restartedMain] c.n.d.c.AppointmentRestController        :  Doctor Rest Controller Called
-2023-08-08T14:35:11.772+05:30  WARN 20468 --- [restartedMain] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.nv.doctorapp.repository.IAppointmentRepository
-2023-08-08T14:35:11.934+05:30  INFO 20468 --- [restartedMain] c.n.d.controller.DoctorRestController    :  Doctor Rest Controller Called
-2023-08-08T14:35:11.989+05:30  WARN 20468 --- [restartedMain] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.nv.doctorapp.repository.IDoctorRepository
-2023-08-08T14:35:12.053+05:30  WARN 20468 --- [restartedMain] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.nv.doctorapp.repository.IHospitalRepository
-2023-08-08T14:35:12.068+05:30  INFO 20468 --- [restartedMain] c.n.d.controller.FeedbackController      : Feedback Controller Called
-2023-08-08T14:35:12.103+05:30  WARN 20468 --- [restartedMain] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.nv.doctorapp.repository.IFeedbackRepository
-2023-08-08T14:35:12.143+05:30  INFO 20468 --- [restartedMain] c.n.d.controller.HospitalController      : Hospital Controller called
-2023-08-08T14:35:12.153+05:30  INFO 20468 --- [restartedMain] c.n.d.controller.PatientRestController   :  Patient Rest Controller Called)
-2023-08-08T14:35:12.216+05:30  WARN 20468 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-08-08T14:35:13.114+05:30  INFO 20468 --- [restartedMain] com.nv.doctorapp.DoctorsApplication      : Started DoctorsApplication in 10.939 seconds (process running for 12.881)
+2023-08-09T12:24:04.550+05:30  INFO 8116 --- [restartedMain] com.nv.doctorapp.DoctorsApplication      : Starting DoctorsApplication using Java 17.0.7 with PID 8116 (C:\Users\MSAHEBRA\OneDrive - Capgemini\Desktop\Book My Doctor App\Backend\DoctorsApplication\bin\main started by msahebra in C:\Users\MSAHEBRA\OneDrive - Capgemini\Desktop\Book My Doctor App\Backend\DoctorsApplication)
+2023-08-09T12:24:04.592+05:30  INFO 8116 --- [restartedMain] com.nv.doctorapp.DoctorsApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-08-09T12:24:09.739+05:30  INFO 8116 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-09T12:24:09.740+05:30  INFO 8116 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-09T12:24:09.914+05:30  INFO 8116 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-09T12:24:10.255+05:30  INFO 8116 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-09T12:24:10.384+05:30  INFO 8116 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-09T12:24:10.390+05:30  INFO 8116 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-08-09T12:24:10.763+05:30  INFO 8116 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-09T12:24:11.280+05:30  INFO 8116 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-09T12:24:11.296+05:30  WARN 8116 --- [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-08-09T12:24:12.256+05:30  INFO 8116 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@308d8939
+2023-08-09T12:24:12.262+05:30  INFO 8116 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-09T12:24:13.344+05:30  INFO 8116 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-09T12:24:15.495+05:30  INFO 8116 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-09T12:24:16.379+05:30  INFO 8116 --- [restartedMain] c.n.d.c.AppointmentRestController        :  Doctor Rest Controller Called
+2023-08-09T12:24:17.000+05:30  WARN 8116 --- [restartedMain] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.nv.doctorapp.repository.IAppointmentRepository
+2023-08-09T12:24:17.690+05:30  INFO 8116 --- [restartedMain] c.n.d.controller.DoctorRestController    :  Doctor Rest Controller Called
+2023-08-09T12:24:17.777+05:30  WARN 8116 --- [restartedMain] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.nv.doctorapp.repository.IDoctorRepository
+2023-08-09T12:24:17.875+05:30  WARN 8116 --- [restartedMain] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.nv.doctorapp.repository.IHospitalRepository
+2023-08-09T12:24:17.897+05:30  INFO 8116 --- [restartedMain] c.n.d.controller.FeedbackController      : Feedback Controller Called
+2023-08-09T12:24:17.958+05:30  WARN 8116 --- [restartedMain] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.nv.doctorapp.repository.IFeedbackRepository
+2023-08-09T12:24:18.024+05:30  INFO 8116 --- [restartedMain] c.n.d.controller.HospitalController      : Hospital Controller called
+2023-08-09T12:24:18.035+05:30  INFO 8116 --- [restartedMain] c.n.d.controller.PatientRestController   :  Patient Rest Controller Called)
+2023-08-09T12:24:18.145+05:30  WARN 8116 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-09T12:24:19.668+05:30  INFO 8116 --- [restartedMain] com.nv.doctorapp.DoctorsApplication      : Started DoctorsApplication in 16.224 seconds (process running for 18.851)
+2023-08-09T13:36:16.516+05:30  WARN 8116 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57m3s637ms806µs800ns).
+2023-08-09T14:26:03.786+05:30  INFO 8116 --- [RMI TCP Connection(72)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-09T14:26:04.393+05:30  INFO 8116 --- [RMI TCP Connection(72)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-09T14:26:04.522+05:30  INFO 8116 --- [RMI TCP Connection(72)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-09T14:26:13.830+05:30  INFO 324 --- [restartedMain] com.nv.doctorapp.DoctorsApplication      : Starting DoctorsApplication using Java 17.0.7 with PID 324 (C:\Users\MSAHEBRA\OneDrive - Capgemini\Desktop\Book My Doctor App\Backend\DoctorsApplication\bin\main started by msahebra in C:\Users\MSAHEBRA\OneDrive - Capgemini\Desktop\Book My Doctor App\Backend\DoctorsApplication)
+2023-08-09T14:26:13.838+05:30  INFO 324 --- [restartedMain] com.nv.doctorapp.DoctorsApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-08-09T14:26:18.799+05:30  INFO 324 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-09T14:26:18.800+05:30  INFO 324 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-09T14:26:19.033+05:30  INFO 324 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-09T14:26:19.449+05:30  INFO 324 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-09T14:26:19.607+05:30  INFO 324 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-09T14:26:19.614+05:30  INFO 324 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-08-09T14:26:20.095+05:30  INFO 324 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-09T14:26:20.602+05:30  INFO 324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-09T14:26:20.614+05:30  WARN 324 --- [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-08-09T14:26:21.486+05:30  INFO 324 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27cbea6a
+2023-08-09T14:26:21.492+05:30  INFO 324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-09T14:26:22.535+05:30  INFO 324 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-09T14:26:24.995+05:30  INFO 324 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-09T14:26:25.530+05:30  INFO 324 --- [restartedMain] c.n.d.c.AppointmentRestController        :  Doctor Rest Controller Called
+2023-08-09T14:26:26.306+05:30  WARN 324 --- [restartedMain] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.nv.doctorapp.repository.IAppointmentRepository
+2023-08-09T14:26:27.366+05:30  INFO 324 --- [restartedMain] c.n.d.controller.DoctorRestController    :  Doctor Rest Controller Called
+2023-08-09T14:26:27.431+05:30  WARN 324 --- [restartedMain] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.nv.doctorapp.repository.IDoctorRepository
+2023-08-09T14:26:27.533+05:30  WARN 324 --- [restartedMain] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.nv.doctorapp.repository.IHospitalRepository
+2023-08-09T14:26:27.556+05:30  INFO 324 --- [restartedMain] c.n.d.controller.FeedbackController      : Feedback Controller Called
+2023-08-09T14:26:27.612+05:30  WARN 324 --- [restartedMain] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.nv.doctorapp.repository.IFeedbackRepository
+2023-08-09T14:26:27.682+05:30  INFO 324 --- [restartedMain] c.n.d.controller.HospitalController      : Hospital Controller called
+2023-08-09T14:26:27.694+05:30  INFO 324 --- [restartedMain] c.n.d.controller.PatientRestController   :  Patient Rest Controller Called)
+2023-08-09T14:26:27.799+05:30  WARN 324 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-09T14:26:29.628+05:30  INFO 324 --- [restartedMain] com.nv.doctorapp.DoctorsApplication      : Started DoctorsApplication in 17.691 seconds (process running for 22.222)
+2023-08-09T14:46:59.089+05:30  INFO 324 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-09T15:24:05.309+05:30  WARN 324 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m42s502ms736µs800ns).

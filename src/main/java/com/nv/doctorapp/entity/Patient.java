@@ -15,7 +15,6 @@ public class Patient {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int patientId;
-
 	private String patientName;
 	private String patientCity;
 	private int patientAge;
