@@ -33,6 +33,11 @@ public class AuthService {
         userRole.setRoleName("User");
         userRole.setRoleDescription("Default role for newly created record");
         roleRepository.save(userRole);
+        
+        Role doctorRole = new Role();
+        doctorRole.setRoleName("Doctor");
+        doctorRole.setRoleDescription("Doctor Role");
+        roleRepository.save(doctorRole);
 
         Auth adminUser = new Auth();
         adminUser.setEmailId("admin@gmail.com");
@@ -54,6 +59,17 @@ public class AuthService {
         user.setActive(true);
         user.setRole(userRoles);
         Auth auth= userRepository.save(user);
+        auth.setUserPassword(null);
+        return auth;
+    }
+    
+    public Auth registerNewDoctor(Auth doctor) {
+        Role role = roleRepository.findById("Doctor").get();
+        Set<Role> userRoles = new HashSet<>();
+        userRoles.add(role);
+        doctor.setActive(true);
+        doctor.setRole(userRoles);
+        Auth auth= userRepository.save(doctor);
         auth.setUserPassword(null);
         return auth;
     }

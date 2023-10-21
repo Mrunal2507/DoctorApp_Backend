@@ -21,14 +21,6 @@ public class Appointment {
 	private String status;
 	private String remark;
 
-	/*@OneToOne(cascade = CascadeType.ALL)
-	@JoinColumn(name = "doctorId")
-	private Doctor doctor;
-
-	@OneToOne(cascade = CascadeType.ALL)
-	@JoinColumn(name = "patientId")
-	private Patient patient;*/
-
 	public Appointment(int appointmentId, String date, String status, String remark) {
 		super();
 		this.appointmentId = appointmentId;
